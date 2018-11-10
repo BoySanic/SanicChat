@@ -1,0 +1,22 @@
+1. User Accounts
+	a. Guest accounts allowed
+	b. Unique IDs, base58.
+		b1. Unix Timestamp converted to binary, tack random number at the end (string concat) and then convert from binary to decimal.
+	c. Passwords (Research how to store these securely)
+	d. Profile Pictures
+	e. Bios
+	f. 
+2. Permission levels
+	2a. Root (Me)
+	2b	Global Admin
+	2c. Global Moderators
+	2d. Group owner
+	2e. Group Mods
+	2f. Normal users
+3. Guilds (groups or whatever with invite links)
+	3a. Maybe a Reddit-like subreddit system where you can do like /r/whatever or whatever the SanicChat equivalent is and then private shit can be random strings.
+4. Private Chatting (groups and user-to-user)
+5. Image uploading/File uploading
+	5a. Throw new share on Antichrist for this
+
+6. Obviously store shit in postgresql
