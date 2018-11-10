@@ -25,7 +25,7 @@
 	Table for users/basic user info
 		UserID as key (ulong)
 		Username (string)
-		Something to relate to password but not cleartext password because that's dumb (string)
-			HMAC-SHA-512
+		Password Salt
+		Salt+Password SHA-512 Hash
 		Profile Picture ID (For pulling from profile pic repository) (string, base 58)
 		Bio (string)

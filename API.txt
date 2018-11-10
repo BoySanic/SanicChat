@@ -1,0 +1,1 @@
+POST /api/Users/username=<name>&password=<password>&email=<email>
