@@ -26,6 +26,6 @@
 		UserID as key (ulong)
 		Username (string)
 		Something to relate to password but not cleartext password because that's dumb (string)
-			HMAC-SHA-256
+			HMAC-SHA-512
 		Profile Picture ID (For pulling from profile pic repository) (string, base 58)
 		Bio (string)
