@@ -1,7 +1,7 @@
 1. User Accounts
 	a. Guest accounts allowed
 	b. Unique IDs
-		b1. Unix Timestamp converted to binary, tack random number at the end (string concat) and then convert from binary to decimal.
+		b1. Haha just kidding it's just a random md5 hash get fucked
 	c. Passwords (Research how to store these securely)
 	d. Profile Pictures
 	e. Bios
@@ -29,3 +29,9 @@
 		Salt+Password SHA-512 Hash
 		Profile Picture ID (For pulling from profile pic repository) (string, base 58)
 		Bio (string)
+
+
+
+
+Chat shit:
+When a message is sent, push it out to all clients who have permission to read that message. It's up to the clients to do as they will with it.

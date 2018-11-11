@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 import Objects.User
 import datetime
 class message(object):

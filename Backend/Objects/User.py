@@ -1,3 +1,4 @@
+#! /usr/bin/python3
 class user(object):
 	#constructor
 	def __init__(self, username, userid, bio, profile_picture_id):
