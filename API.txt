@@ -1,1 +1,6 @@
-POST /api/Users/username=<name>&password=<password>&email=<email>
+POST /api/Users/
+
+Body:
+username=<name>
+password=<password>
+email=<email>
