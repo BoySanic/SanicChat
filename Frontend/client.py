@@ -6,7 +6,13 @@ import socket
 TCP_IP = '127.0.0.1'
 TCP_PORT = 3001
 BUFFER_SIZE = 1024
-MESSAGE = str.encode("Hello, World!")
+USERNAME = '"' + input("Enter username: ") + '"'
+PASSWORD = '"' + input("Enter password: ") + '"'
+print(USERNAME)
+print(PASSWORD)
+stringmessage = '{"username": %s, "password": %s}' % (USERNAME, PASSWORD)
+MESSAGE = str.encode(stringmessage)
+
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((TCP_IP, TCP_PORT))
